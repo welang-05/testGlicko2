@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test Gicko-2</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+
+    <header>
+        <h1>Test Glicko-2</h1>
+        <p>Probando para un furturo mejor</p>
+    </header>
+    
+    <article>
+
+        <div class="formulario">
+            <h2>Formulario</h2>
+
+            <div>
+
+                <form id="form1">
+
+                    <div class="one">
+                        <h3>Equipo 1</h3>
+                        <div class="two">
+                            <label for="nombre1">Nombre Jugador 1:</label>
+                            <input type="text" id="nombre1" name="nombre">
+                            <label for="rating">Rating Jugador 1:</label>
+                            <input type="number" id="rating1" name="rating">
+                        </div>
+
+                        <div class="two">
+                            <label for="nombre2">Nombre Jugador 2:</label>
+                            <input type="text" id="nombre2" name="nombre2">
+                            <label for="rating2">Rating Jugador 2:</label>
+                            <input type="number" id="rating2" name="rating2">
+                        </div>
+                    </div>
+                    
+
+                    <div class="one">
+                        <h3>Equipo 2</h3>
+                        <div class="two">
+                            <label for="nombre3">Nombre Jugador 3:</label>
+                            <input type="text" id="nombre3" name="nombre3">
+                            <label for="rating3">Rating Jugador 3:</label>
+                            <input type="number" id="rating3" name="rating3">
+                        </div>
+
+                        <div class="two">
+                            <label for="nombre4">Nombre Jugador 4:</label>
+                            <input type="text" id="nombre4" name="nombre4">
+                            <label for="rating4">Rating Jugador 4:</label>
+                            <input type="number" id="rating4" name="rating4">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="ganador">Ganador:</label>
+                        <select name="ganador" id="ganador">
+                            <option value="1">Equipo 1</option>
+                            <option value="2">Equipo 2</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                  </form>
+
+            </div>
+
+        </div>
+
+        <div class="resultados">
+            <h2>Resultados</h2>
+            <div>
+                <h3>Nuevos Rantings</h3>
+                <div id="nuevosRatings">
+                    <p id="nuevoRating1"></p>
+                    <p id="nuevoRating2"></p>
+                    <p id="nuevoRating3"></p>
+                    <p id="nuevoRating4"></p>
+            </div>
+
+            <div>
+            
+            </div>
+        </div>
+
+    </article>
+
+    <script src="testGlicko2.js"></script>
     
 </body>
 </html>
